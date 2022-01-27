@@ -13,5 +13,6 @@ public class SpringApplicationTest {
                 new ClassPathXmlApplicationContext("applicationContext.xml");
         Date now = context.getBean(Date.class);
         System.out.println("Now is :"+now);
+        System.out.println("bbbb" );//添加bbbb,第2次提交
     }
 }
