@@ -20,5 +20,7 @@ public class SpringApplicationTest {
         //修改日期输出格式,第4次提交
         DateFormat dateFormat = context.getBean(DateFormat.class);
         System.out.println("Now is : "+dateFormat.format(now) );
+        System.out.println("/////测试协作开发/////" );
+        System.out.println("tom update1" );
     }
 }
