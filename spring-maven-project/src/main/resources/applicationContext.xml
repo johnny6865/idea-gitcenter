@@ -5,4 +5,9 @@
     <!--注册日期对象-->
     <bean id="now" class="java.util.Date" />
 
+    <!--注册日期格式对象-->
+    <bean id="dateFormat" class="java.text.SimpleDateFormat">
+        <constructor-arg value="yyyy-MM-dd HH:mm:ss"/>
+    </bean>
+
 </beans>
