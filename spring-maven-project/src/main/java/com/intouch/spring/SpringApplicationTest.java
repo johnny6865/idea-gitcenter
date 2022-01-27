@@ -24,6 +24,7 @@ public class SpringApplicationTest {
         System.out.println("tom update 1" );
         System.out.println("leader update 1" );
         System.out.println("tom update 2" );
+        System.out.println("leader update 2" );
         System.out.println("tom update 3" );
     }
 }
