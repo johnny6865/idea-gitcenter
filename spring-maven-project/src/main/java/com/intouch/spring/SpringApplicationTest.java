@@ -15,5 +15,6 @@ public class SpringApplicationTest {
         System.out.println("Now is :"+now);
         System.out.println("bbbb" );//添加bbbb,第2次提交
         System.out.println("dev1修改bug1" );
+        System.out.println("dev1修改bug2" );
     }
 }
