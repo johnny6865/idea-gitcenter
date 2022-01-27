@@ -22,5 +22,6 @@ public class SpringApplicationTest {
         System.out.println("Now is : "+dateFormat.format(now) );
         System.out.println("/////测试协作开发/////" );
         System.out.println("tom update1" );
+        System.out.println("leader update 1" );
     }
 }
